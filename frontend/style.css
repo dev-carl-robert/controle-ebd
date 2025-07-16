@@ -1,0 +1,63 @@
+:root {
+    font-size: 62.5%;
+}
+body {
+    background-color: #29363f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.page-initial {
+    display: flex;
+    align-items: center;  
+    justify-content: space-around;
+    width: 100%;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.hero h1 {
+    color: #e01f01;
+    font-size: 5rem;
+    font-family: "Rye";
+}
+.hero span {
+    color: #f5f5f5;
+}
+
+.hero p {
+    font-family: "aladin";
+    font-size: 2.5rem;
+    color: #f5f5f5;
+}
+.hero a {
+    font-family: "aladin";
+    background-color: #e01f01;
+    padding: 1rem 5rem;
+    border-radius: 5rem;
+    font-size: 3rem;
+    color: #f5f5f5;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+.hero a:hover {
+    color: #e01f01;
+    background-color: #f5f5f5;
+}
+.hero-img {
+    max-width: 50rem;
+    max-height: 50rem;
+}
+.hero-img img {
+    width: 80%;
+    height: 80%;
+    object-fit: cover;
+    border-radius: 50%;
+}
